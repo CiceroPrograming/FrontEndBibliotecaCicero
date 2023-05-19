@@ -10,4 +10,9 @@ public class BibliotecaControler {
     public String login() {
         return "login";
     }
+
+    @GetMapping("/cadastroUsuario")
+    public String cadadastro() {
+        return "cadastro";
+    }
 }
