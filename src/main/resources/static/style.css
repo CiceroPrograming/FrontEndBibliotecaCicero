@@ -1,14 +1,17 @@
 body{
     background-color: white;
     margin: 0 auto;
+    background-image: url(background-login.jpg);
 }
 
 #cadastro {
-    color: black;
+    color: white;
+    background-color: black;
     width: 41%;
     height: 395px;
     border-style: groove;
       border-left-style: groove;
+    border-left-style: groove;
     border-top-left-radius: 0px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -20,6 +23,8 @@ body{
     line-height: 60px;
     font-size: 19px;
     border-left: 0px;
+      border-left-color: currentcolor;
+    border-color: black
 }
 
 #box{ 
@@ -31,6 +36,12 @@ body{
 }
 
 #background-img{
-    width: 617px;
+    width: 620px;
     height: 400px;
+}
+
+.input-dados {
+    width: 250px;
+    height: 24px;
+    border: none;
 }
