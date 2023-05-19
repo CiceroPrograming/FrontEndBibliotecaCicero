@@ -1,0 +1,36 @@
+body{
+    background-color: white;
+    margin: 0 auto;
+}
+
+#cadastro {
+    color: black;
+    width: 41%;
+    height: 395px;
+    border-style: groove;
+      border-left-style: groove;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    display: flex;
+    text-align: center;
+    float: right;
+    justify-content: center;
+    line-height: 60px;
+    font-size: 19px;
+    border-left: 0px;
+}
+
+#box{ 
+    margin: 0 auto;
+    height: 400px;
+    width: 1057px;
+    padding-top: 10%;
+    font-family: 'Poppins', sans-serif;
+}
+
+#background-img{
+    width: 617px;
+    height: 400px;
+}
