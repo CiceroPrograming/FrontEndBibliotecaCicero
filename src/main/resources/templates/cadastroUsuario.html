@@ -15,33 +15,36 @@
 
 <body>
     <div id="box-cadastro">
-        <div id="cadastro-usuario"></div>
-        <form class="cadastroUsuario" method="POST" action="/cadastroUsuario">
+        <img id="background-img-cadastro" src="../cadastro.jpg" alt="Minha Figura">
+        <div id="cadastro-usuario">
+            <form method="POST" action="/cadastroUsuario">
 
-            <h1>Cadastro de Usuário</h1>
+                <h1 style="font-weight: 200;">Cadastro de Usuário</h1>
 
-            <label for="nome">Nome Completo:</label>
-            <input type="text" placeholder="Ex: Jayme Mattos">
-            <p></p>
+                <label for="nome">Nome:</label>
+                <input class="input-dados" type="text" placeholder="Ex: Jayme Mattos">
+                <p></p>
 
-            <label for="nome">Usuário:</label>
-            <input type="text" placeholder="Ex: jayme.mattos">
-            <p></p>
+                <label for="nome">Usuário:</label>
+                <input class="input-dados" type="text" placeholder="Ex: jayme.mattos">
+                <p></p>
 
-            <label for="email">Email:</label>
-            <input type="email" placeholder="email@email.com"></input>
-            <p></p>
+                <label for="email">Email:</label>
+                <input class="input-dados" type="email" placeholder="email@email.com"></input>
+                <p></p>
 
-            <label for="senha">Senha:</label>
-            <input type="password"></input>
-            <p></p>
+                <label for="senha">Senha:</label>
+                <input class="input-dados" type="password" placeholder="Senha"></input>
+                <p></p>
 
-            <button type="submit">Cadastrar</button>
+                <button id="botao-cadastro" type="submit">Cadastrar</button>
+                <p></p>
 
-            <span>Ja possui cadastro? <a href="/loginUsuario">Entrar</a></span>
-        </form>
+                <span>Ja possui cadastro? <a href="/loginUsuario">Entrar</a></span>
+            </form>
+        </div>
     </div>
-    </div>
+
 
     </form>
 </body>
