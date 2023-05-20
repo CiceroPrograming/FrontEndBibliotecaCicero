@@ -6,13 +6,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class BibliotecaControler {
 
-    @GetMapping("/login")
+    @GetMapping("/loginUsuario")
     public String login() {
-        return "login";
+        return "loginUsuario";
     }
 
     @GetMapping("/cadastroUsuario")
     public String cadadastro() {
-        return "cadastro";
+        return "cadastroUsuario";
     }
 }

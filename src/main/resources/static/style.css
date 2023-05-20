@@ -3,7 +3,7 @@ body {
     margin: 0 auto;
 }
 
-#cadastro {
+#login-usuario {
     color: white;
     background-color: black;
     width: 41%;
@@ -29,6 +29,15 @@ body {
 }
 
 #box {
+    margin: 0 auto;
+    height: 400px;
+    width: 1057px;
+    margin-top: 12%;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 0 200px;
+}
+
+#box-cadastro {
     margin: 0 auto;
     height: 400px;
     width: 1057px;
