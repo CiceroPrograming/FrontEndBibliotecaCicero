@@ -15,4 +15,10 @@ public class BibliotecaControler {
     public String cadadastro() {
         return "cadastroUsuario";
     }
+
+    @GetMapping("/listaLivro")
+    public String lista() {
+        return "listaLivro";
+    }
+
 }
