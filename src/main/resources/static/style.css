@@ -54,11 +54,11 @@ body {
 #box-cadastro {
     margin: 0 auto;
     margin-top: 0px;
-  height: 400px;
-  width: 1113px;
-  margin-top: 12%;
-  font-family: 'Poppins', sans-serif;
-  box-shadow: 0 0 200px;
+    height: 400px;
+    width: 1113px;
+    margin-top: 12%;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 0 200px;
 }
 
 #background-img {
@@ -106,3 +106,4 @@ body {
     font-size: 18px;
     cursor: pointer;
 }
+

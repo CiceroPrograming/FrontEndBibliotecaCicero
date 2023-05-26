@@ -1,0 +1,72 @@
+html,
+body {
+    background-color: white;
+    margin: 0;
+    color: black;
+    height: 100%;
+    width: 100%;
+}
+
+.status-icon {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.online {
+    background-color: green;
+}
+
+.offline {
+    background-color: red;
+}
+
+#nav-bar {
+    background-color: gold;
+    float: left;
+    width: 260px;
+    min-height: 100%;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+}
+
+#livro-cadastrado {
+    font-family: 'Poppins', sans-serif;
+    height: 300px;
+    display: inline-grid;
+    width: 380px;
+    text-align: center;
+    border-style: groove;
+    margin: 65px;
+}
+
+#dados-id {
+    display: none;
+}
+
+#dados-nome {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+#titulo-livros{
+    font-size: 60px;
+    padding-left: 55px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dados {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#botao-alugado {
+
+}
+
+#container {
+    align-items: center;
+    display: flex;
+    margin-left: 140px;
+}
