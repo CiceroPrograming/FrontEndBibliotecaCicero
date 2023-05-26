@@ -1,0 +1,65 @@
+#nav-bar {
+    background-color: gold;
+    float: left;
+    width: 260px;
+    min-height: 100%;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+}
+
+html,
+body {
+    background-color: white;
+    margin: 0;
+    color: black;
+    height: 100%;
+    width: 100%;
+}
+
+#container {
+    float: left;
+    min-width: 84%;
+}
+
+#titulo-cadastro {
+    color: gold;
+    border: 1px;
+    font-size: 60px;
+    padding-left: 55px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+#formulario-cadastro-livro{
+    color: white;
+    background-color: black;
+    width: 41%;
+    height: 395px;
+    border-style: solid;
+      border-left-style: solid;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    line-height: 47px;
+    font-size: 19px;
+    border-left: 0px;
+      border-left-color: currentcolor;
+    border-left-color: currentcolor;
+    border-color: black;
+    margin: 150px;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input-dados {
+    width: 250px;
+    height: 24px;
+    border: none;
+    border-radius: 9px;
+}

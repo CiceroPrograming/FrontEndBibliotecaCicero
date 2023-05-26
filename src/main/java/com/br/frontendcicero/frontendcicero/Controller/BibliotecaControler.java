@@ -21,4 +21,9 @@ public class BibliotecaControler {
         return "listaLivro";
     }
 
+    @GetMapping("/cadastroLivro")
+    public String cadastroLivro() {
+        return "cadastroLivro";
+    }
+
 }
