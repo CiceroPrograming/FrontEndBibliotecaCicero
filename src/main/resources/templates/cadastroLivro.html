@@ -35,9 +35,13 @@
 
         <h1 id="titulo-cadastro">Cadastro de Livro</h1>
         <hr>
-        
+
         <div id="formulario-cadastro-livro">
+        
         <form method="POST" action="/cadastroLivro">
+
+            <h2>Formulario de Cadastro</h2>
+
             <div class="formulario" th:if="${livro}">
                 <input type="hidden" name="id" th:value="${livro?.id}">
             </div>
@@ -72,8 +76,7 @@
             <label for="anoPubli">Ano de publicação</label>
             <input class="input-dados" type="date" name="anoPublicacao" th:value="${livro?.anopublicacao}"></input>
             <p></p>
-            
-            <button type="submit">Entrar</button>
+            <button type="submit" id="botao">Cadastrar</button>
         </form>
         </div>
     </div>
