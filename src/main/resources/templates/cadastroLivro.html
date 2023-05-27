@@ -45,11 +45,11 @@
             <div class="formulario" th:if="${livro}">
                 <input type="hidden" name="id" th:value="${livro?.id}">
             </div>
-            <label for="titulo">Titulo do Livro</label>
+            <label style="margin-left: 55px;" for="titulo">Titulo do Livro</label>
             <input class="input-dados" type="text" placeholder="Ex: Jayme Mattos" name="id" th:value="${livro?.titulo}">
             <p></p>
             
-            <label for="genero">Gênero</label>
+            <label style="margin-left: 105px;" for="genero">Gênero</label>
             <select class="input-dados" name="genero" th:value="${livro?.genero}">
                 <option selected disabled hidden>Selecione um gênero</option>
                 <option>Ação</option>
@@ -76,6 +76,7 @@
             <label for="anoPubli">Ano de publicação</label>
             <input class="input-dados" type="date" name="anoPublicacao" th:value="${livro?.anopublicacao}"></input>
             <p></p>
+
             <button type="submit" id="botao">Cadastrar</button>
         </form>
         </div>

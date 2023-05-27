@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../listaUsuario.css">
+    <script src="https://kit.fontawesome.com/65f22fe718.js" crossorigin="anonymous"></script>
+    <title>Lista de Usuários</title>
+</head>
+
+<body>
+    <a href="/listaLivro">Voltar</a>
+
+    <div id="container">
+        
+        <h1>Lista de Usuários</h1>
+
+        <table>
+            <thead>
+                <th class="th-id">#</th>
+                <th class="th-usuario">Usuario</th>
+                <th class="th-email">Email</th>
+                <th class="th-status">Status</th>
+                <th class="th-excluir">Excluir</th>
+                <th class="th-editar">Editar</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><a th:href="@{'/excluirUsuario/'+${usuario.id}}">Excluir</a></td>
+                    <td><a th:href="@{'/editarUsuario/'+${usuario.id}}">Editar</a></td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+
+</body>
+
+</html>

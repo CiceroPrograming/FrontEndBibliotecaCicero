@@ -2,7 +2,7 @@
     background-color: gold;
     float: left;
     width: 260px;
-    min-height: 100%;
+    min-height: 97%;
     font-family: 'Poppins', sans-serif;
     padding: 15px;
 }
@@ -50,6 +50,7 @@ body {
     border-left: 0px;
     border-color: black;
     margin: 150px;
+    margin-left: 350px;
     border-radius: 20px;
     font-family: 'Poppins', sans-serif;
 }
